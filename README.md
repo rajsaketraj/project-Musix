@@ -39,7 +39,7 @@ A modern, YouTube-powered music streaming player with real-time audio visualizat
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/musix-player.git
+git clone https://github.com/rajsaketraj/project-Musix.git
 cd musix-player
 ```
 
