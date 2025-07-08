@@ -139,11 +139,11 @@ function App() {
       audioElement.crossOrigin = "anonymous";
       audioElement.preload = "auto";
 
-      // Use proxy URL to avoid CORS issues
-      const proxyUrl = `${API_URL}/proxy-stream?url=${encodeURIComponent(
-        streamUrl
-      )}`;
-      audioElement.src = proxyUrl;
+      // Use the direct streaming URL from the backend
+      const fullStreamUrl = streamUrl.startsWith("http")
+        ? streamUrl
+        : `${API_URL}${streamUrl}`;
+      audioElement.src = fullStreamUrl;
 
       // Update audioRef
       audioRef.current = audioElement;
@@ -212,14 +212,6 @@ function App() {
       setQueue(queue.slice(1)); // Remove the played track
       handlePlay(nextTrack.id.videoId, nextTrack);
     }
-  };
-
-  const formatTime = (timeInSeconds: number) => {
-    if (isNaN(timeInSeconds)) return "0:00";
-
-    const minutes = Math.floor(timeInSeconds / 60);
-    const seconds = Math.floor(timeInSeconds % 60);
-    return `${minutes}:${seconds < 10 ? "0" : ""}${seconds}`;
   };
 
   return (
