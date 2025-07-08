@@ -1,0 +1,54 @@
+MIT License
+
+Copyright (c) 2025 Musix Player
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-Party Libraries
+
+This project uses the following third-party libraries:
+
+### Frontend
+
+- React (MIT License)
+- Three.js (MIT License)
+- Axios (MIT License)
+- React Icons (MIT License)
+
+### Backend
+
+- Express.js (MIT License)
+- yt-dlp (Unlicense)
+- Axios (MIT License)
+- CORS (MIT License)
+- dotenv (BSD-2-Clause License)
+
+## Disclaimer
+
+This software is provided for educational and personal use only. Users are responsible for ensuring compliance with YouTube's Terms of Service and applicable copyright laws. The creators of this software are not responsible for any misuse or legal issues arising from the use of this software.
+
+## YouTube API Usage
+
+This project uses the YouTube Data API v3, which is subject to Google's Terms of Service and YouTube's API Terms of Service. Users must obtain their own API key and comply with rate limits and usage policies.
+
+## Audio Content
+
+This application does not host any audio content. All audio files are temporarily downloaded from YouTube and are subject to YouTube's terms of service. Users should only download content they have the right to access.
